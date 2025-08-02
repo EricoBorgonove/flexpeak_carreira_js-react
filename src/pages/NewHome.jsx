@@ -13,6 +13,9 @@ const NewHome = () =>{
             <Button variant="contained" color="primary" component={Link} to="/sobre">
                 Saiba Mais sobre nós
             </Button>
+             <Button sx={{ms:10}} variant="contained" color="primary" component={Link} to="/outro">
+                Outro
+            </Button>           
         </Container>
     )
 }
