@@ -1,6 +1,9 @@
-function Saudacao ({nome}){
+function Saudacao ({nome, idade}){
     return (
-        <h1>Olá, {nome}!</h1>
+        <>
+            <h1>Olá, {nome}!</h1>
+            <p>Você tem {idade} anos de vida</p>
+        </>
     )
 }
 
